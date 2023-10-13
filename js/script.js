@@ -21,7 +21,21 @@ let personalMovieDB = {
     privat: false
 }
 
+function showMyDB(hidden) {
+    if (!hidden) {
+        console.log(personalMovieDB);
+    }
+}
 
+showMyDB(personalMovieDB.privat);
+
+function writeYourGenres() {
+    for (let i = 0; i < 3; i++) {
+        personalMovieDB.genres[i] = prompt(`Ваш любимый жанр под номером ${i + 1}`, "");
+    }
+}
+
+writeYourGenres();
 
 function rememberMyFilms() {
     for (let i = 1; i < 3; i++) {
