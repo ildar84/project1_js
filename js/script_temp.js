@@ -137,28 +137,28 @@
 
 // showExperience(personalPlanPeter);
 
-const family = ['Peter', 'Ann', 'Alex', 'Linda'];
+// const family = ['Peter', 'Ann', 'Alex', 'Linda'];
 
-function showFamily(arr) {
-    str = '';
+// function showFamily(arr) {
+//     str = '';
 
-    arr.length === 0 ? str = `Семья пуста` : str = `Семья состоит из `;
-    arr.forEach(name => {
-        str += `${name} `;
-    });
-    return str;    
-}
+//     arr.length === 0 ? str = `Семья пуста` : str = `Семья состоит из `;
+//     arr.forEach(name => {
+//         str += `${name} `;
+//     });
+//     return str;    
+// }
 
-console.log(showFamily(family));
+// console.log(showFamily(family));
 
-const favoriteCities = ['liSBon', 'ROME', 'miLan', 'Dublin'];
+// const favoriteCities = ['liSBon', 'ROME', 'miLan', 'Dublin'];
 
-function standardizeStrings(arr) {
-    arr.forEach(city => {
-        console.log(city.toLowerCase());
-    });
-}
+// function standardizeStrings(arr) {
+//     arr.forEach(city => {
+//         console.log(city.toLowerCase());
+//     });
+// }
 
-standardizeStrings(favoriteCities);
+// standardizeStrings(favoriteCities);
 
 
